@@ -1,0 +1,105 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    background-color: #000;
+    min-height: 70px;
+}
+nav{
+    display: flex;
+    float: left;
+}
+nav ul li {
+    list-style-type: none;
+    float: left;
+    margin-right: 10px;
+    font-size: 18px;
+}
+a:link,a:visited{
+    color: #FFF;
+    text-decoration: none;
+}
+a:hover{
+    color:#1e93cc;
+}
+#login{
+    float: right;
+}
+#get{
+    background-color: #1e93cc;
+    font-size: 28px;
+    min-height: 500px;
+    text-align: center;
+}
+#left{
+    float: left;
+    flex-direction: column;
+    display: flex;
+}
+#right{
+    display: flex;
+    flex-direction: column;
+    float: right;
+}
+#deadlines{
+    font-size: 28px;
+    min-height: 50px;
+    text-align: center;
+    padding: 20px;
+}
+#probably{
+    background-color: #1e93cc;
+    color: white;
+    min-height: 600px;
+    padding: 50px;
+}
+#teams{
+    font-size: 28px;
+    min-height: 50px;
+    text-align: center;
+    color:  #e0e0e0;
+    padding: 20px;
+}
+p{
+    color: #e0e0e0;
+    font-size: 18px;
+}
+#start{
+    background-color: #e99002;
+    border: #FFF 3px solid;
+    padding: 10px;
+    color: #FFF;
+    font-size: 24px;
+    border-radius: 10px;
+}
+#start2{
+    background-color: #e99002;
+    padding: 10px;
+    color: #FFF;
+    font-size: 24px;
+    border-radius: 10px;
+    border: none;
+}
+.bouton{
+    background-color: #165882;
+    padding: 10px;
+    color: #FFF;
+    font-size: 24px;
+    border-radius: 10px;
+    border: none;
+}
+#bouton{
+    min-height: 400px;
+}
+#sponsor{
+    background-color: #eeeeee;
+    min-height: 500px;
+    align-content: center;
+}
+footer{
+    background-color: #000000;
+    min-height: 70px;
+}
